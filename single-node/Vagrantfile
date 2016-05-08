@@ -9,7 +9,7 @@ require 'yaml'
 Vagrant.require_version ">= 1.6.0"
 
 CLUSTER_IP="10.3.0.1"
-NODE_IP = "172.17.4.98"
+NODE_IP = "172.17.4.99"
 USER_DATA_PATH = File.expand_path("user-data")
 SSL_TARBALL_PATH = File.expand_path("ssl/controller.tar")
 
